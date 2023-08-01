@@ -1,0 +1,38 @@
+.header{
+    max-width: var(--width);
+    margin: 2rem 0 2rem auto;
+    background-color: var(--background-green);
+    color: var(--color-white);
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 14px;
+    padding-top: 10px ;
+    }
+
+    a{
+        color: var(--color-white);
+    }
+
+    #login{
+        color: var(--color-brown);
+    }
+nav{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+div{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#botao-login{
+    font-weight: 700;
+    background-color: #fff;
+    color: var(--color-brown);
+    height: 44px;
+    border-radius: 5px;
+}

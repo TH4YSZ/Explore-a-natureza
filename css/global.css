@@ -52,3 +52,16 @@ img{
     margin: 0 auto;
     padding: 1rem;
 }
+
+p{
+    font-size: 17.6px;
+    padding-bottom: 10px;
+}
+
+span{
+    padding-right : 10px;
+}
+
+h3{
+    font-size: 32px;
+}

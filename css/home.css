@@ -46,3 +46,11 @@ img{
     display: block;
     padding-left: 2rem;
 }
+
+#faq .respostas{
+    display: none;
+}
+
+#faq .respostas.active{
+    display: block;
+}

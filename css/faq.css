@@ -23,3 +23,11 @@ h2{
     height: 
     1716.7px;
 }
+
+.conteudo section{
+    display: none;
+}
+
+.conteudo section.active{
+    display: block;
+}

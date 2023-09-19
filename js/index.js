@@ -20,12 +20,22 @@ const perguntas = document.querySelectorAll('#faq .perguntas')
 const respostas = document.querySelectorAll('#faq .respostas')
 
 function ativarRespostas(indice){
-
     respostas[indice].classList.add('active')
 }
 
+function removerRespostas(indice) {
+    perguntas[indice].addEventListener('click', () => {
+        if (respostas[indice].classList.contains('active')) {
+            respostas[indice].classList.remove('active');
+        }
+        else {
+            respostas[indice].classList.add('active');
+        }
+    });
+}
 perguntas.forEach((item, indice)=>{
     item.addEventListener('click', ()=>{
         ativarRespostas(indice)
+        removerRespostas(indice)
     })
 })

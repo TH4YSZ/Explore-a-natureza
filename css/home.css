@@ -54,3 +54,22 @@ img{
 #faq .respostas.active{
     display: block;
 }
+
+@media screen and (max-width: 600px) {
+    .title{
+      font-size: 2rem;
+    }
+    
+    .header {
+      font-size: 1.5rem;
+    }
+    
+    h3{
+      font-size: 1.5rem;
+    }
+
+    p{
+        font-size: 0.75rem;
+    }
+    
+    }

@@ -24,11 +24,11 @@ h2{
     1716.7px;
 }
 
-.conteudo section{
+#faq .respostas{
     display: none;
 }
 
-.conteudo section.active{
+#faq .respostas.active{
     display: block;
 }
 

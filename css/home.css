@@ -47,13 +47,15 @@ img{
     padding-left: 2rem;
 }
 
-#faq .respostas{
+.conteudo section{
     display: none;
 }
 
-#faq .respostas.active{
+.conteudo section.active{
     display: block;
 }
+
+
 
 @media screen and (max-width: 600px) {
     .title{

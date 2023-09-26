@@ -39,3 +39,4 @@ perguntas.forEach((item, indice)=>{
         removerRespostas(indice)
     })
 })
+

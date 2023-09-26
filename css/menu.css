@@ -17,6 +17,7 @@
     #login{
         color: var(--color-brown);
     }
+
 nav{
     padding: 10px;
     display: flex;
@@ -29,10 +30,35 @@ div{
     padding: 10px;
 }
 
+.menu{
+    background-color: #000;
+    height: 44px;
+    width: 95px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    display: none;
+}
+
+
 #botao-login{
     font-weight: 700;
     background-color: #fff;
     color: var(--color-brown);
     height: 44px;
     border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .menu{
+        display: flex;
+    }
+
+    div{
+        display: none;
+    }
 }

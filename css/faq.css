@@ -22,6 +22,7 @@ h2{
 #faq{
     height: 
     1716.7px;
+    margin-left: 2rem;
 }
 
 #faq .respostas{
@@ -33,16 +34,7 @@ h2{
 }
 
 @media screen and (max-width: 600px) {
-    
     h2{
-      font-size: 2.5rem;
+        font-size: 1.5rem;
     }
-
-    p{
-        font-size: 0.75rem;
-    }
-    
-    .perguntas{
-        font-size: 1rem;
-    }
-    }
+}

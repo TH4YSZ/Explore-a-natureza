@@ -13,7 +13,7 @@ main{
 }
      
 .scroll-container{
-    width: 1800px;
+    width: 900px;
     height: 600px;
     overflow-y: scroll;
     overflow-x: hidden;
@@ -56,22 +56,3 @@ img{
 }
 
 
-
-@media screen and (max-width: 600px) {
-    .title{
-      font-size: 2rem;
-    }
-    
-    .header {
-      font-size: 1.5rem;
-    }
-    
-    h3{
-      font-size: 1.5rem;
-    }
-
-    p{
-        font-size: 0.75rem;
-    }
-    
-    }

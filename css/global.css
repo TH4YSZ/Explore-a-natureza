@@ -66,6 +66,88 @@ h3{
     font-size: 32px;
 }
 
+@media screen and (max-width: 600px) {
 
+    .title {
+        font-size: 1.5rem;
+    }
+    
+    .header {
+        font-size: 1rem; 
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 0.75rem;
+    }
+
+    iframe{
+        height: 300px;
+        width: 300px;
+    }
+
+    #contatos{
+        display: block;
+        justify-content:flex-start;
+    
+    }
+    
+    #info{
+        display: grid;
+        margin-left: 0px;
+        
+    }
+
+    p.perguntas{
+        font-size: 1rem;
+    }
+
+    #footer p{
+        font-size: 0.65rem;
+    }
+
+    .scroll-container{
+        width: 600px;
+        height: 600px;
+        overflow-y: scroll;
+        overflow-y: hidden;
+        display: flex;
+    }
+    .main ::-webkit-scrollbar{
+        width: 12px;
+    }
+    
+    .scroll-container::-webkit-scrollbar-thumb {
+        background-color: #2fa97c;
+    }
+    
+    .image-list {
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+      }
+    
+    .image-list img{
+        width: 600px;
+        height: 600px;
+        object-fit: cover;
+    }
+    
+    .image-list li {
+        display: inline-block; 
+        margin-right: 10px; 
+    }
+
+    
+    .main{
+        display: block;
+    }
+    
+}
+    
+    
 
     

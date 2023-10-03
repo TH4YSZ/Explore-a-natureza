@@ -34,6 +34,8 @@ body{
 
 img{
     display: block;
+    width: 900px;
+    height: 600px;
 }
 
 .title{
@@ -102,49 +104,13 @@ h3{
     }
 
     p.perguntas{
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
     #footer p{
         font-size: 0.65rem;
     }
 
-    .scroll-container{
-        width: 600px;
-        height: 600px;
-        overflow-y: scroll;
-        overflow-y: hidden;
-        display: flex;
-    }
-    .main ::-webkit-scrollbar{
-        width: 12px;
-    }
-    
-    .scroll-container::-webkit-scrollbar-thumb {
-        background-color: #2fa97c;
-    }
-    
-    .image-list {
-        padding: 0;
-        margin: 0;
-        display: inline-block;
-      }
-    
-    .image-list img{
-        width: 600px;
-        height: 600px;
-        object-fit: cover;
-    }
-    
-    .image-list li {
-        display: inline-block; 
-        margin-right: 10px; 
-    }
-
-    
-    .main{
-        display: block;
-    }
     
 }
     

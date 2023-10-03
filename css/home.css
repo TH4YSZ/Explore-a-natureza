@@ -32,10 +32,7 @@ main{
     display: inline-block;
   }
 
-img{
-    width: 900px;
-    height: 600px;
-}
+
 
 .image-list li {
     display: inline-block; 

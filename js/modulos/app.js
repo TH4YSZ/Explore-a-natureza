@@ -1,5 +1,9 @@
-function mostrarConsole(){
-    console.log(msg)
+const form = document.querySelector('.form')
+
+
+export function pegarValorForm(event){
+    console.log(event.target.value)
 }
 
-setTimeout(mostrarConsole, 5000, "Oi")
+form.addEventListener('change', pegarValorForm )
+

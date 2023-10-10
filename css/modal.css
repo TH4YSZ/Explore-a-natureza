@@ -5,8 +5,7 @@
     width: 600px;
     max-width: 100%;
     position: fixed;
-    z-index: 999;
-    top: 30%;
+    top: 40%;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -40,13 +39,14 @@
     animation: showModal .3s forwards;
 }
 
-.msg p{
+
+.msg{
     display: none;
     color: #2fa97c;
 }
 
 .msg.active{
-    display: inline;
+    display: block;
 }
 
 @keyframes showModal{

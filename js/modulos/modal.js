@@ -11,12 +11,13 @@ export function pegarValorForm(event){
 export function exibirModal() {
     form.classList.add('active')
     
+    
 }
   
 export function ocultarModal() {
     form.classList.remove('active')
-    form.style.display = 'none'
-    sucesso.classList.add('active')
+    form.style.display = 'none' 
+    
 }
 
 window.addEventListener('load', exibirModal);
@@ -25,9 +26,9 @@ form.addEventListener('change', pegarValorForm )
 form.addEventListener('submit', (event) =>{
     event.preventDefault()
     localStorage.setItem(dados.email, JSON.stringify(dados))
-    sucesso.classList.add('active');
+    sucesso.classList.add('active')
     ocultarModal()
-    setTimeout(0);
+    
 
 })
 

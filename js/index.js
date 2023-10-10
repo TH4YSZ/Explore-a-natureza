@@ -2,8 +2,8 @@ import {ativarConteudo, ativarRespostas, removerRespostas} from "./modulos/acord
 import {menuMobileInit} from "./modulos/tabMenu.js"
 import { pegarValorForm } from "./modulos/modal.js"
 
-pegarValorForm()
 menuMobileInit()
+pegarValorForm()
 ativarConteudo()
 ativarRespostas()
 removerRespostas()

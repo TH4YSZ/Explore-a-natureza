@@ -1,4 +1,5 @@
 const form = document.querySelector('.js-modal')
+const sucesso = document.querySelector('.msg')
 const dados = {} //Objeto
 
 
@@ -7,12 +8,15 @@ export function pegarValorForm(event){
     console.log(dados)
 }
 
-function exibirModal() {
-    form.style.display = 'block';
+export function exibirModal() {
+    form.classList.add('active')
+    
 }
-
+  
 export function ocultarModal() {
-    form.style.display = 'none';
+    form.classList.remove('active')
+    form.style.display = 'none'
+    sucesso.classList.add('active')
 }
 
 window.addEventListener('load', exibirModal);
@@ -21,9 +25,10 @@ form.addEventListener('change', pegarValorForm )
 form.addEventListener('submit', (event) =>{
     event.preventDefault()
     localStorage.setItem(dados.email, JSON.stringify(dados))
-    alert("Dados salvos com sucesso!")
+    sucesso.classList.add('active');
     ocultarModal()
+    setTimeout(0);
 
 })
 
-setTimeout(exibirModal, 15 * 60 * 1000); // 15 minutos em milissegundos
+setTimeout(exibirModal, 15 * 60 * 1000) // 15 minutos em milissegundos

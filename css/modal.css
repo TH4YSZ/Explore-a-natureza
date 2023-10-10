@@ -5,6 +5,7 @@
     width: 600px;
     max-width: 100%;
     position: fixed;
+    z-index: 999;
     top: 30%;
     left: 50%;
     transform: translateX(-50%);
@@ -37,6 +38,15 @@
 .js-modal.active{
     display: flex;
     animation: showModal .3s forwards;
+}
+
+.msg p{
+    display: none;
+    color: #2fa97c;
+}
+
+.msg.active{
+    display: inline;
 }
 
 @keyframes showModal{
